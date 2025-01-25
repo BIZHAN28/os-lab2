@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <string.h	>
+#include <string.h>
 
 int lab2_open(const char *path) {
     return open(path, O_CREAT | O_RDWR, 0644);
